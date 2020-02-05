@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+# Programmation Matlab
+## Formation Ingénieur, Université des Antilles - Vincent Pagé
 
-You can use the [editor on GitHub](https://github.com/elbixos/Inge1_Matlab/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Résumé et ressources
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Dans cette UE, nous nous attacherons à programmer en utilisant le langage
+Matlab, qui, quoiqu'un peu en perte de vitesse, reste un grand classique
+des langages de programmation pour physiciens.
 
-### Markdown
+Vous trouverez ici l'essentiel du cours de cette UE, ainsi que les énoncés des travaux pratiques.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Dans cette UE, les cours seront très réduits, il vous sera surtout demandé
+de coder vous même les solutions des travaux pratiques.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/elbixos/Inge1_Matlab/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Les Cours sont accessibles ici : [Cours/index](Cours/index.md)
+- Les TP sont accessibles ici : [TP/README](TP/README.md)
