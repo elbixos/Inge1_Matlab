@@ -22,5 +22,5 @@ Voici l'énoncé et les fichiers utiles :
 ## TP 4
 
 Voici l'énoncé et les fichiers utiles :
-- [énoncé](Tp4-ts.pdf)
+- [énoncé](Tp4_ts.pdf)
 - [La base Iris](UCI_iris.csv)
