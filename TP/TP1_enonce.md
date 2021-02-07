@@ -21,7 +21,7 @@ calculer des choses dessus.
 Pensez à rédiger votre rapport au fur et à mesure de vos avancées, il faut le
 rendre à la fin de l'heure.
 
-## Question 1 : visualisation d'une fonction donnée'
+## Question 1 : visualisation d'une fonction donnée
 
 On veut étudier la courbe *f(t)=exp(-0.1 t).sin(2.pi.t)*, pour *t in [-10,10]*.
 En calcul numérique, nous serons obligés de ne regarder qu'une version
@@ -44,7 +44,7 @@ suivantes :
 Cette image devra être intégrée à votre rapport.
 Au passage, expliquez pourquoi cette fonction se comporte comme cela...
 
-## Question 2 : Visualisation de Sinc au carré
+## Question 2 : Visualisation du carré de cette fonction
 
 - Dans une nouvelle figure, tracez la fonction *g(t)= f^2(t)* sur le même
 intervalle.
