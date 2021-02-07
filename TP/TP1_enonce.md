@@ -15,7 +15,7 @@ me poser des questions si ce n'est pas clair
 Il n'y a rien à rédiger pour cette partie. Plus vite vous aurez fini, plus vous
 aurez de temps pour la suite (notée).
 
-Nous allons maintenant nous intéresser à la fonction **sinus cardinal** et
+Nous allons maintenant nous intéresser à une fonction mathématique et
 calculer des choses dessus.
 
 Pensez à rédiger votre rapport au fur et à mesure de vos avancées, il faut le
