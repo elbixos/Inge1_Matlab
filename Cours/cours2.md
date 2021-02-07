@@ -7,8 +7,8 @@ Soit une matrice *M*
 ```Matlab
 M = [1,4,5;12,2,2;1,27,4]
 ```
-Si je veux acceder à la valeur case (2,1) de la matrice (qui contient 12), je
-vais faire quelque chose comme
+Si je veux accéder à la valeur de la case (2,1) de la matrice (qui contient 12),
+je vais faire quelque chose comme :
 ```Matlab
 disp(M(2,1))
 ```
@@ -127,21 +127,49 @@ resu = sum(x(indices))
 
 ### Pour des matrices
 
-Cela fonctionne de la meme façon, à un petit détail prêt pour *find*.
+Cela fonctionne de la même façon, à un petit détail prêt pour *find*.
 Testez ceci :
 
 ```Matlab
-M = [1,4,5;12,2,2;1,27,4]
+M = [1,4,5;12,27,2;1,3,4]
 montest= M>5
 indices = find(montest)
 ```
 
-*indices* contient ici les indices dit **linéarisé** des cases de *M* dont les
-valeurs sont positives. On compte les indices de cases comme suit :
-- la case 1 est la case en haut a gauche (contient 1)
-- la case 2 est la case en dessous (contient 4)
-- la case 3 est la case en dessous (contient 5)
-- la case 4 .... on repart a la colonne suivante (contient 12)
-- ... et ainsi de suite
+*indices* contient ici les indices **linéarisés** des cases de *M* dont les
+valeurs sont positives. Je peux donc par exemple, en faire la somme facilement
 
-Ces indices permettent d'acceder a une valeur spécifique de la matrice
+```Matlab
+indices = find(M>5)
+resu = sum(M(indices))
+```
+
+Si je vous demande de donner les numéros de lignes pour lesquels on a des
+valeurs >5 dans *M*, 2 solutions :
+
+1. on retransforme ces indices **linéarisés** en numéros de lignes et de colonnes
+```Matlab
+indices = find(M>5)
+taille = [3,3]
+ligne,col = ind2sub(taille,ind)
+```
+
+Ce que l'on verra souvent la forme suivante, qui m'évite de rentrer à la main
+la taille de *M* :
+```Matlab
+indices = find(M>5)
+
+ligne,col = ind2sub(size(M),ind)
+```
+
+Dans la foulée, je peux éventuellement filtrer les numéros de ligne pour ne*
+conserver qu'une seule fois les numéros qui apparaissent :
+```Matlab
+cool_lines = unique(ligne)
+```
+
+2. L'autre possibilité aurait été de demander a find de renvoyer directement
+les numéros de lignes et de colonnes plutot que les indices linéarisés.
+```Matlab
+ligne, col = find(M>5)
+```
