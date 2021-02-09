@@ -1,4 +1,4 @@
-# Enoncé du TP2
+# Enoncé du TP1
 
 Dans ce TP, nous allons revoir les bases de Matlab, et vous devrez me rendre un
 compte rendu (sous forme de pdf) dans lequel vous répondrez au questions.
