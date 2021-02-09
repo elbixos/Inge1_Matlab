@@ -12,5 +12,4 @@ Vous trouverez ici l'essentiel du cours de cette UE, ainsi que les énoncés des
 Dans cette UE, les cours seront très réduits, il vous sera surtout demandé
 de coder vous même les solutions des travaux pratiques.
 
-- Les Cours sont accessibles ici : [Cours/index](Cours/index.md)
-- Les TP sont accessibles ici : [TP/README](TP/README.md)
+- Les Cours et les TP sont accessibles ici : [Cours/index](Cours/index.md)
