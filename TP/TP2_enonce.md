@@ -100,7 +100,7 @@ mesurées précédemment ?
 
 Imaginons que notre objectif soit, à partir d'une seule information, de prédire
 si un individu a un problème cardiaque. Par exemple, je vais supposer que
-* chol > moyenne + 2 ecart types* indique un pb cardiaque.
+*chol > moyenne + 2 ecart types* indique un pb cardiaque.
 
 - Donnez le code permettant de créer un tableau 1D dans lequel, pour chaque
 individu, une case contienne 1 si ma condition est vraie et 0 sinon.
