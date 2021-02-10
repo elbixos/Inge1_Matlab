@@ -2,8 +2,6 @@
 
 # Enoncé du TP1
 
-$$ test(x) = exp(x)^2$$
-
 Dans ce TP, nous allons revoir les bases de Matlab, et vous devrez me rendre un
 compte rendu (sous forme de pdf) dans lequel vous répondrez au questions.
 
@@ -27,7 +25,10 @@ rendre à la fin de l'heure.
 
 ## Question 1 : visualisation d'une fonction donnée
 
-On veut étudier la courbe *f(t)=exp(-0.1 t).sin(2.pi.t)*, pour *t in [-10,10]*.
+On veut étudier la courbe :
+
+$$ f(t)=exp(-0.1 t).sin(2.pi.t) , t \in [-10,10]$$.
+
 En calcul numérique, nous serons obligés de ne regarder qu'une version
 échantillonnée de cette fonction. On voudra l'étudier avec un pas réglable
 facilement (par exemple 0.1)
@@ -50,8 +51,10 @@ Au passage, expliquez pourquoi cette fonction se comporte comme cela...
 
 ## Question 2 : Visualisation du carré de cette fonction
 
-- Dans une nouvelle figure, tracez la fonction *g(t)= f^2(t)* sur le même
-intervalle.
+- Dans une nouvelle figure, tracez la fonction
+$$ g(t)= f^2(t) $$
+
+sur le même intervalle.
   - en bleu
   - avec un tracé présentant une ligne ET des points pour les points
   d'échantillonage.
