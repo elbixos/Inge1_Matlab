@@ -1,4 +1,8 @@
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
 # Enoncé du TP1
+
+$$ test(x) = exp(x)^2$$
 
 Dans ce TP, nous allons revoir les bases de Matlab, et vous devrez me rendre un
 compte rendu (sous forme de pdf) dans lequel vous répondrez au questions.
