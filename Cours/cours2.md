@@ -7,7 +7,7 @@ Soit une matrice *M*
 ```Matlab
 M = [1,4,5;12,2,2;1,27,4]
 ```
-Si je veux accéder à la valeur de la case (2,1) de la matrice (qui contient 12),
+Si je veux accéder à la valeur de la case (2,1) de la matrice (qui contient 4),
 je vais faire quelque chose comme :
 ```Matlab
 disp(M(2,1))
@@ -20,9 +20,9 @@ disp(M(4))
 
 On compte les indices de cases comme suit :
 - la case 1 est la case en haut a gauche (contient 1)
-- la case 2 est la case en dessous (contient 4)
-- la case 3 est la case en dessous (contient 5)
-- la case 4 .... on repart a la colonne suivante (contient 12)
+- la case 2 est la case en dessous (contient 12)
+- la case 3 est la case en dessous (contient 1)
+- la case 4 .... on repart a la colonne suivante (contient 4)
 - ... et ainsi de suite
 
 Ces indices permettent d'accéder à une ou plusieurs valeurs spécifique de la matrice
