@@ -116,12 +116,12 @@ resu = sum(positifs)
 
 Tout ceci aurait pu se faire en une ligne, plus ou moins lisible :
 ```Matlab
-resu = sum(x(find(x>5)))
+resu = sum(x(find(x>0)))
 ```
 
 Pour ma part, j'aurais tendance a faire ceci :
 ```Matlab
-indices= find(x>5);
+indices= find(x>0);
 resu = sum(x(indices))
 ```
 
