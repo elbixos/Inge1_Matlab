@@ -72,7 +72,7 @@ Ceci se fait en deux étapes.
 
 ### Pour des vecteurs
 
-1. Le code suivant compare le vecteur x avec la condition *>0*
+1. Le code suivant compare le vecteur x avec la condition *>0* :
 ```Matlab
 x=[-4,12,2,-3,5,7]
 
